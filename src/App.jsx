@@ -1,11 +1,13 @@
 import KgButton from "./KgButton"
 import Hello from "./Hello"
 import Random from "./Random"
+import Healthy from "./Healthy"
+import React from "react"
 
 
 function  App(){
-  return <div> 
-<h1>
+  return <React.Fragment>
+    <h1>
     Hello WORLD
   </h1>
   <button>
@@ -21,7 +23,13 @@ function  App(){
   <Random>
     
   </Random>
-  </div> 
+  <Healthy>
+
+  </Healthy>
+
+  </React.Fragment>
+
+   
   
 }
 export default App
